@@ -1,0 +1,122 @@
+Tuning took a total of 65598.60933301598 secconds!
+
+Best trial (according to the min validation loss):
+train_cifar_eb3e3_00067_67_batch_size=16,lr=0.0004,unet_size=ref_ph_164a08e0_2024-08-22_01-53-52
+Best trial config: {'unet_size': <class '__main__.UNet_medium'>, 'lr': 0.00040624703401329293, 'batch_size': 16}
+
+Validation scores:
+Best trial final validation loss: 0.33260301500558853
+Best trial final validation accuracy: 0.9841752052307129
+Best trial final validation IOU: 0.8849241137504578
+Best trial final validation p: 0.9308025240898132
+Best trial final validation r: 0.9472507834434509
+Best trial final validation f1: 0.938916027545929
+
+Test scores:
+result = {'test': {'ACC': array(0.98194915, dtype=float32), 'IOU': array(0.8864935, dtype=float32), 'P': array(0.9301551, dtype=float32), 'R': array(0.94966835, dtype=float32), 'F1': array(0.9397829, dtype=float32)}}
+
+Logical resource usage: 8.0/12 CPUs, 1.0/1 GPUs (0.0/1.0 accelerator_type:G)
+╭─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Trial name                status       unet_size                       lr     batch_size     iter     total time (s)       loss │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+│ train_cifar_eb3e3_00000   TERMINATED   ...in__.UNet_small'>   6.37825e-05             16      300          2662.18     0.342697 │
+│ train_cifar_eb3e3_00001   TERMINATED   ...n__.UNet_medium'>   2.01215e-05             16      300          2926.14     0.312073 │
+│ train_cifar_eb3e3_00002   TERMINATED   ...in__.UNet_small'>   2.86056e-05              2       10            90.9365   5.15509  │
+│ train_cifar_eb3e3_00003   TERMINATED   ...in__.UNet_large'>   2.75706e-05              2       10           102.565    4.33235  │
+│ train_cifar_eb3e3_00004   TERMINATED   ...in__.UNet_large'>   0.000154994              4       30           295.279    1.28962  │
+│ train_cifar_eb3e3_00005   TERMINATED   ...in__.UNet_small'>   1.58041e-05             16       10            93.104    3.68935  │
+│ train_cifar_eb3e3_00006   TERMINATED   ...in__.UNet_large'>   0.000108645              4       30           294.658    1.35489  │
+│ train_cifar_eb3e3_00007   TERMINATED   ...in__.UNet_large'>   0.000701527              4       30           295.112    1.16654  │
+│ train_cifar_eb3e3_00008   TERMINATED   ...in__.UNet_large'>   1.40428e-05              4       10            98.226    2.75882  │
+│ train_cifar_eb3e3_00009   TERMINATED   ...in__.UNet_large'>   1.85554e-05              2       10           102.608    4.46388  │
+│ train_cifar_eb3e3_00010   TERMINATED   ...in__.UNet_large'>   3.07169e-05              2       10           102.409    4.2012   │
+│ train_cifar_eb3e3_00011   TERMINATED   ...in__.UNet_large'>   0.000719691              4       30           295.265    1.27483  │
+│ train_cifar_eb3e3_00012   TERMINATED   ...in__.UNet_large'>   8.79615e-05              8      270          2632.67     0.717863 │
+│ train_cifar_eb3e3_00013   TERMINATED   ...in__.UNet_large'>   7.62561e-05              2       10           102.304    3.71899  │
+│ train_cifar_eb3e3_00014   TERMINATED   ...in__.UNet_small'>   1.94178e-05              2       10            90.7395   6.06963  │
+│ train_cifar_eb3e3_00015   TERMINATED   ...in__.UNet_large'>   9.05371e-05              2       10           102.457    3.53698  │
+│ train_cifar_eb3e3_00016   TERMINATED   ...in__.UNet_small'>   0.000702737              4       30           263.516    1.10029  │
+│ train_cifar_eb3e3_00017   TERMINATED   ...in__.UNet_large'>   0.000205315              2       30           306.525    2.25702  │
+│ train_cifar_eb3e3_00018   TERMINATED   ...n__.UNet_medium'>   0.00079601               2       30           288.541    1.50793  │
+│ train_cifar_eb3e3_00019   TERMINATED   ...n__.UNet_medium'>   9.94392e-05              2       10            96.0537   2.78777  │
+│ train_cifar_eb3e3_00020   TERMINATED   ...in__.UNet_large'>   1.47004e-05              4       10            98.2456   2.7054   │
+│ train_cifar_eb3e3_00021   TERMINATED   ...in__.UNet_small'>   5.68342e-05              2       10            90.4553   4.53073  │
+│ train_cifar_eb3e3_00022   TERMINATED   ...in__.UNet_large'>   8.79482e-05             16      300          3105.98     0.334491 │
+│ train_cifar_eb3e3_00023   TERMINATED   ...n__.UNet_medium'>   0.000459825              4       90           851.957    0.755684 │
+│ train_cifar_eb3e3_00024   TERMINATED   ...n__.UNet_medium'>   0.000412992              8      270          2537.93     0.540874 │
+│ train_cifar_eb3e3_00025   TERMINATED   ...n__.UNet_medium'>   0.000987781              4       90           850.872    0.769349 │
+│ train_cifar_eb3e3_00026   TERMINATED   ...in__.UNet_small'>   2.44384e-05             16       30           278.968    1.14537  │
+│ train_cifar_eb3e3_00027   TERMINATED   ...in__.UNet_small'>   7.32759e-05              2       10            89.901    4.56463  │
+│ train_cifar_eb3e3_00028   TERMINATED   ...n__.UNet_medium'>   0.000864407             16      300          2946.59     0.310989 │
+│ train_cifar_eb3e3_00029   TERMINATED   ...in__.UNet_large'>   1.81925e-05              2       30           307.315    3.35353  │
+│ train_cifar_eb3e3_00030   TERMINATED   ...in__.UNet_small'>   0.000492987              8      270          2352.37     0.491936 │
+│ train_cifar_eb3e3_00031   TERMINATED   ...in__.UNet_small'>   0.000255728              2       10            90.4589   3.89406  │
+│ train_cifar_eb3e3_00032   TERMINATED   ...in__.UNet_large'>   0.000597146              2       10           101.732    4.05146  │
+│ train_cifar_eb3e3_00033   TERMINATED   ...n__.UNet_medium'>   4.05646e-05              2       10            95.9247   3.55846  │
+│ train_cifar_eb3e3_00034   TERMINATED   ...n__.UNet_medium'>   0.000281033              8      270          2522.18     0.600681 │
+│ train_cifar_eb3e3_00035   TERMINATED   ...n__.UNet_medium'>   1.1049e-05               2       10            95.8753   4.51072  │
+│ train_cifar_eb3e3_00036   TERMINATED   ...in__.UNet_small'>   0.000218208             16       90           841.07     0.346038 │
+│ train_cifar_eb3e3_00037   TERMINATED   ...n__.UNet_medium'>   6.68977e-05              2       10            95.7823   2.81934  │
+│ train_cifar_eb3e3_00038   TERMINATED   ...n__.UNet_medium'>   5.41613e-05              2       10            96.0476   3.11028  │
+│ train_cifar_eb3e3_00039   TERMINATED   ...n__.UNet_medium'>   6.31988e-05              8      300          2766.17     0.390916 │
+│ train_cifar_eb3e3_00040   TERMINATED   ...in__.UNet_large'>   8.37257e-05              2       10           102.338    3.48942  │
+│ train_cifar_eb3e3_00041   TERMINATED   ...in__.UNet_small'>   7.468e-05                4       30           269.324    1.99668  │
+│ train_cifar_eb3e3_00042   TERMINATED   ...in__.UNet_small'>   2.91637e-05              8       30           268.109    1.33354  │
+│ train_cifar_eb3e3_00043   TERMINATED   ...in__.UNet_small'>   0.000877642              8       90           775.825    0.538782 │
+│ train_cifar_eb3e3_00044   TERMINATED   ...in__.UNet_large'>   1.15114e-05              8       10           100.006    2.30197  │
+│ train_cifar_eb3e3_00045   TERMINATED   ...in__.UNet_small'>   1.15352e-05              2       10            90.2373   8.07477  │
+│ train_cifar_eb3e3_00046   TERMINATED   ...n__.UNet_medium'>   0.000555907              4       30           283.613    0.800348 │
+│ train_cifar_eb3e3_00047   TERMINATED   ...n__.UNet_medium'>   2.3703e-05              16      300          2949.42     0.285521 │
+│ train_cifar_eb3e3_00048   TERMINATED   ...in__.UNet_large'>   1.32965e-05              8       10           101.113    2.22869  │
+│ train_cifar_eb3e3_00049   TERMINATED   ...in__.UNet_small'>   0.000113934              2       10            90.2248   4.62094  │
+│ train_cifar_eb3e3_00050   TERMINATED   ...in__.UNet_small'>   0.000191693              8       30           260.915    0.834711 │
+│ train_cifar_eb3e3_00051   TERMINATED   ...n__.UNet_medium'>   0.000371617              2       30           287.759    1.6005   │
+│ train_cifar_eb3e3_00052   TERMINATED   ...in__.UNet_small'>   0.000664562              2       10            90.2866   3.72728  │
+│ train_cifar_eb3e3_00053   TERMINATED   ...in__.UNet_large'>   0.00017364               8       90           908.075    0.497899 │
+│ train_cifar_eb3e3_00054   TERMINATED   ...n__.UNet_medium'>   2.3396e-05               4       10            94.5719   2.09581  │
+│ train_cifar_eb3e3_00055   TERMINATED   ...in__.UNet_small'>   0.000110713              2       10            90.6939   4.20263  │
+│ train_cifar_eb3e3_00056   TERMINATED   ...n__.UNet_medium'>   0.000151858             16      300          2942.01     0.217567 │
+│ train_cifar_eb3e3_00057   TERMINATED   ...n__.UNet_medium'>   9.74586e-05              4       30           283.413    0.977598 │
+│ train_cifar_eb3e3_00058   TERMINATED   ...in__.UNet_large'>   4.19048e-05              2       10           102.29     3.74426  │
+│ train_cifar_eb3e3_00059   TERMINATED   ...n__.UNet_medium'>   0.000415541             16      270          2640.43     0.314528 │
+│ train_cifar_eb3e3_00060   TERMINATED   ...n__.UNet_medium'>   0.000418551              2       30           288.036    1.51905  │
+│ train_cifar_eb3e3_00061   TERMINATED   ...in__.UNet_small'>   1.27087e-05             16       10            92.6948   3.71445  │
+│ train_cifar_eb3e3_00062   TERMINATED   ...in__.UNet_large'>   0.000407056              8       90           908.982    0.564936 │
+│ train_cifar_eb3e3_00063   TERMINATED   ...in__.UNet_small'>   1.29183e-05              4       10            89.0226   4.94875  │
+│ train_cifar_eb3e3_00064   TERMINATED   ...in__.UNet_small'>   7.72094e-05              8       30           266.012    1.13314  │
+│ train_cifar_eb3e3_00065   TERMINATED   ...in__.UNet_large'>   1.7209e-05               2       10           102.097    4.53885  │
+│ train_cifar_eb3e3_00066   TERMINATED   ...in__.UNet_large'>   3.18958e-05              2       30           305.846    2.9114   │
+│ train_cifar_eb3e3_00067   TERMINATED   ...n__.UNet_medium'>   0.000406247             16      270          2643.72     0.332603 │
+│ train_cifar_eb3e3_00068   TERMINATED   ...in__.UNet_large'>   4.41183e-05              4       30           300.567    1.59798  │
+│ train_cifar_eb3e3_00069   TERMINATED   ...in__.UNet_small'>   0.000236868             16      300          2796.01     0.258575 │
+│ train_cifar_eb3e3_00070   TERMINATED   ...n__.UNet_medium'>   7.4025e-05               4       30           283.465    1.0929   │
+│ train_cifar_eb3e3_00071   TERMINATED   ...in__.UNet_small'>   1.57886e-05              2       10            90.1468   7.6703   │
+│ train_cifar_eb3e3_00072   TERMINATED   ...n__.UNet_medium'>   3.8264e-05               4       30           283.293    1.42296  │
+│ train_cifar_eb3e3_00073   TERMINATED   ...n__.UNet_medium'>   1.14434e-05              8       30           275.041    1.07809  │
+│ train_cifar_eb3e3_00074   TERMINATED   ...in__.UNet_small'>   0.000436716              4       10            88.7384   2.11631  │
+│ train_cifar_eb3e3_00075   TERMINATED   ...in__.UNet_large'>   0.000281855              4       30           302.394    1.23334  │
+│ train_cifar_eb3e3_00076   TERMINATED   ...n__.UNet_medium'>   1.32236e-05              2       10            95.9091   4.26545  │
+│ train_cifar_eb3e3_00077   TERMINATED   ...n__.UNet_medium'>   3.47735e-05              4       30           280.204    1.44427  │
+│ train_cifar_eb3e3_00078   TERMINATED   ...n__.UNet_medium'>   0.000419933             16      270          2653.34     0.366862 │
+│ train_cifar_eb3e3_00079   TERMINATED   ...in__.UNet_large'>   5.29664e-05              2       30           307.634    2.53226  │
+│ train_cifar_eb3e3_00080   TERMINATED   ...n__.UNet_medium'>   1.14822e-05             16       10            98.1711   2.84742  │
+│ train_cifar_eb3e3_00081   TERMINATED   ...in__.UNet_small'>   2.12015e-05             16       30           279.315    1.18927  │
+│ train_cifar_eb3e3_00082   TERMINATED   ...n__.UNet_medium'>   7.37391e-05              4       30           280.231    1.1383   │
+│ train_cifar_eb3e3_00083   TERMINATED   ...in__.UNet_large'>   3.47018e-05              8       30           305.204    0.95966  │
+│ train_cifar_eb3e3_00084   TERMINATED   ...in__.UNet_large'>   0.00079543              16      270          2766.96     0.497756 │
+│ train_cifar_eb3e3_00085   TERMINATED   ...in__.UNet_large'>   0.000675051              4       30           294.641    1.19851  │
+│ train_cifar_eb3e3_00086   TERMINATED   ...n__.UNet_medium'>   0.000842661              4       30           278.615    0.821586 │
+│ train_cifar_eb3e3_00087   TERMINATED   ...in__.UNet_large'>   0.000139299              8       90           918.366    0.518043 │
+│ train_cifar_eb3e3_00088   TERMINATED   ...in__.UNet_large'>   1.7558e-05               2       30           305.34     3.47607  │
+│ train_cifar_eb3e3_00089   TERMINATED   ...in__.UNet_small'>   0.000159447              4       10            88.5689   2.17437  │
+│ train_cifar_eb3e3_00090   TERMINATED   ...n__.UNet_medium'>   1.94324e-05             16       90           888.541    0.426811 │
+│ train_cifar_eb3e3_00091   TERMINATED   ...in__.UNet_small'>   8.44087e-05              8       30           274.388    1.14294  │
+│ train_cifar_eb3e3_00092   TERMINATED   ...in__.UNet_large'>   2.27827e-05              4       10            98.7474   2.54699  │
+│ train_cifar_eb3e3_00093   TERMINATED   ...in__.UNet_large'>   4.54582e-05              4       10            98.6078   2.38577  │
+│ train_cifar_eb3e3_00094   TERMINATED   ...n__.UNet_medium'>   4.27879e-05              2       10            96.6744   3.42964  │
+│ train_cifar_eb3e3_00095   TERMINATED   ...in__.UNet_small'>   3.76478e-05              8       10            91.6985   2.18523  │
+│ train_cifar_eb3e3_00096   TERMINATED   ...in__.UNet_large'>   2.13548e-05             16       30           310.376    0.657863 │
+│ train_cifar_eb3e3_00097   TERMINATED   ...in__.UNet_small'>   0.000525654              8       90           824.934    0.533928 │
+│ train_cifar_eb3e3_00098   TERMINATED   ...in__.UNet_small'>   0.000273476              2       30           272.103    2.28744  │
+│ train_cifar_eb3e3_00099   TERMINATED   ...in__.UNet_small'>   0.000152149              8       30           274.436    0.881999 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯

@@ -1,0 +1,16 @@
+{
+  "TRAIN_IMG_DIR": "../training_data/train/img",
+  "TRAIN_MASK_DIR": "../training_data/train/mask",
+  "TEST_IMG_DIR": "../training_data/test/img",
+  "TEST_MASK_DIR": "../training_data/test/mask",
+  "RATIO_VAL_DATA": 0.5,
+  "LEARNING_RATE": 0.0004,
+  "BATCH_SIZE": 16,
+  "NUM_EPOCHS": 150,
+  "MODEL_NAME": "UNet_medium",
+  "INDEX": "e150_bs16_lr0004",
+  "PIN_MEMORY": true,
+  "LOAD_MODEL": false,
+  "NUM_WORKERS": 0,
+  "SEED": 20
+}

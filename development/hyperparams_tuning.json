@@ -1,0 +1,13 @@
+{
+  "TRAIN_IMG_DIR": "../training_data/train/img",
+  "TRAIN_MASK_DIR": "../training_data/train/mask",
+  "TEST_IMG_DIR": "../training_data/test/img",
+  "TEST_MASK_DIR": "../training_data/test/mask",
+  "RATIO_TUNING_DATA": 0.8,
+  "MAX_NUM_EPOCHS": 300,
+  "INDEX": "maxepoch300_grp10_red3_br2",
+  "NUM_TRIALS": 10,
+  "PIN_MEMORY": true,
+  "NUM_WORKERS": 0,
+  "SEED": 20
+}
