@@ -14,7 +14,7 @@ Ronneberger, O., Fischer, P., & Brox, T. **U-Net: Convolutional Networks for Bio
 - [Overview](#overview)
 - [Citation](#citation)
 - [Contact](#contact)
-
+- [Contributors](#contributors)
 
 # Installation of required software
 
@@ -59,10 +59,25 @@ Chair of Fluid Systems
 Technische Universität Darmstadt
 
 Grigorios Hatzissawidis
-    mail  grigorios.hatzissawidis@gmail.com
+    grigorios.hatzissawidis@gmail.com
 
 Marlene Leimeister
-    mail  marlene.leimeister@stud.tu-darmstadt.de
+    marlene.leimeister@stud.tu-darmstadt.de
 
 Jonas Bergner
-    mail  jonast.bergner@gmail.com
+    jonast.bergner@gmail.com
+  
+Tobias Meck
+    tobias.meck@tu-darmstadt.de
+
+# Contributors
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center"><a href="https://github.com/grigorishat"><img src="https://avatars.githubusercontent.com/u/114856563?s=400&u=9eea6aaba80fe841c18c8a621111e2d9f3da63ed&v=4" width="100px;" alt="Grigorios Hatzissawidis"/><br /><sub><b>Grigorios Hatzissawidis</b></sub></td>
+      <td align="center"><a href="https://github.com/marlenelmstr"><img src="https://avatars.githubusercontent.com/u/118199252?v=4" width="100px;" alt="Marlene Leimeister"/><br /><sub><b>Marlene Leimeister</b></sub></td>
+      <td align="center"><a href="https://github.com/JonusBurger"><img src="https://avatars.githubusercontent.com/u/105583255?v=4" width="100px;" alt="Jonas Bergner"/><br /><sub><b>Jonas Bergner</b></sub></td>
+      <td align="center"><a href="https://github.com/tobiasmeck"><img src="https://avatars.githubusercontent.com/u/74379708?v=4" width="100px;" alt="Tobias Meck"/><br /><sub><b>Tobias Meck</b></sub></td>
+  </tbody>
+</table>
